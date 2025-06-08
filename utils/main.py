@@ -30,11 +30,3 @@ def run_etl():
 
 if __name__ == "__main__":
     run_etl()
-✅ Catatan
-Fungsi save_to_csv, save_to_gsheets, dan save_to_postgresql akan kita buat di load.py.
-
-Kamu bisa menjalankan main.py dengan:
-
-bash
-Copy code
-python main.py
