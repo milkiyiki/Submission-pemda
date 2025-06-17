@@ -1,6 +1,6 @@
 from utils.extract import scrape_fashion
 from utils.transform import transform_to_DataFrame, transform_data
-from utils.load_clean import store_to_postgre, store_to_csv, store_to_sheets
+from utils.load import store_to_postgre, store_to_csv, store_to_sheets
 
 def main():
     BASE_URL = 'https://fashion-studio.dicoding.dev/page{}'
